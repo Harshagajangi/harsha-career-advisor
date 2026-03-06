@@ -12,3 +12,26 @@ function careerResult() {
 
   document.getElementById("result").innerHTML = result;
 }
+function generateReport(){
+
+let name=document.getElementById("name").value;
+let interest=document.getElementById("interest").value;
+
+let career="";
+
+if(interest=="tech")
+career="Software Engineer / AI Engineer";
+
+else if(interest=="defence")
+career="Defence Officer / Intelligence Officer";
+
+else if(interest=="business")
+career="Entrepreneur / Business Manager";
+
+else
+career="Creative Designer / Media Professional";
+
+document.getElementById("report").innerHTML=
+"Hello "+name+", Recommended Career: "+career;
+
+}
