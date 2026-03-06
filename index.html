@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsha Career Advisor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Harsha Career Advisor</h1>
+      <p>Guiding Students Towards the Right Future</p>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#guidance">Career Guidance</a>
+        <a href="#test">Career Test</a>
+        <a href="#consult">Consultation</a>
+        <a href="#stories">Success Stories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Welcome</h2>
+
+      <p>
+        Helping students choose the right career path after 10th, 12th, Degree
+        and Engineering.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>After 10th</h3>
+          <p>Choose MPC, BiPC, Commerce or Diploma.</p>
+        </div>
+
+        <div class="card">
+          <h3>After 12th</h3>
+          <p>Explore Engineering, Medical, Defence, Business.</p>
+        </div>
+
+        <div class="card">
+          <h3>After Degree</h3>
+          <p>IT jobs, Government exams, Higher studies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="guidance">
+      <h2>Career Guidance</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Engineering</h3>
+          <ul>
+            <li>Software Engineer</li>
+            <li>AI Engineer</li>
+            <li>Data Scientist</li>
+            <li>Cyber Security</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Government Jobs</h3>
+          <ul>
+            <li>UPSC</li>
+            <li>Banking</li>
+            <li>SSC</li>
+            <li>Railways</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Defence Careers</h3>
+          <ul>
+            <li>CDS</li>
+            <li>NDA</li>
+            <li>AFCAT</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="test">
+      <h2>Career Interest Test</h2>
+
+      <form>
+        <label>Do you like computers?</label>
+        <select id="q1">
+          <option value="tech">Yes</option>
+          <option value="other">No</option>
+        </select>
+
+        <label>Do you like helping people?</label>
+        <select id="q2">
+          <option value="medical">Yes</option>
+          <option value="other">No</option>
+        </select>
+
+        <label>Do you like leadership?</label>
+        <select id="q3">
+          <option value="defence">Yes</option>
+          <option value="other">No</option>
+        </select>
+
+        <br /><br />
+
+        <button type="button" onclick="careerResult()">Find My Career</button>
+      </form>
+
+      <p id="result"></p>
+    </section>
+
+    <section id="consult">
+      <h2>Book Career Consultation</h2>
+
+      <p>
+        Get personalized career advice based on your skills, interests and
+        education.
+      </p>
+
+      <a
+        class="btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSf_rrW8Sz6D2IbH7KpdQhCL8Rd9G8gICo-KASUhcAbve5qPEQ/viewform?usp=publish-editor"
+        target="_blank"
+      >
+        Fill Consultation Form
+      </a>
+    </section>
+
+    <section id="stories">
+      <h2>Student Success Stories</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Rahul</h3>
+          <p>Joined B.Tech CSE after guidance.</p>
+        </div>
+
+        <div class="card">
+          <h3>Anjali</h3>
+          <p>Preparing for defence exams.</p>
+        </div>
+
+        <div class="card">
+          <h3>Ravi</h3>
+          <p>Started career in data science.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>Career Advisor: Harsha</p>
+      <p>Phone: 8465997055</p>
+    </section>
+
+    <footer>
+      <p>© 2026 Harsha Career Advisor</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
